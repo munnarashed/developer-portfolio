@@ -1,4 +1,5 @@
 /* common shard style */
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -21,8 +22,9 @@ body {
 /* nav related styles */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -43,4 +45,18 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+/* header related style */
+header{
+    background: #FFF8F3;
+
+}
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
+    
 }
